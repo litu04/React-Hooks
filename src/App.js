@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+ //import UseStateBasics from './Components/useState/UseStateBasics'; 
+ //import UseStateArray from './Components/useState/UseStateArray';
+ //import UseStateObject from './Components/useState/UseStateObject';
+ //import UseStateArrayList from './Components/useState/UseStateArrayList';
+ import FormBasics from './Components/Form/FormBasics';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseStateBasics /> */}
+      {/* <UseStateArray /> */}
+      {/* <UseStateObject /> */}
+      {/* <UseStateArrayList /> */}
+      <FormBasics />
     </div>
   );
 }
